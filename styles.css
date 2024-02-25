@@ -1,0 +1,43 @@
+.header{
+    text-align: center;
+    /* align-items: center; */
+}
+
+.main{
+    /* text-align: center; */
+    /* margin: auto;
+    position: relative; */
+    display: grid;
+    place-items: center;
+    margin-right: 37px;
+}
+
+/* .menu{
+    display: grid;
+} */
+
+/* .menuIndex{
+    display: inline-block;
+} */
+
+.menuItem{
+    display: inline-block;
+}
+.numberButtons{
+    /* width: 150px;
+    height: 5px; */
+    padding: 25px 25px;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4,35px);
+    gap: 9.5px;
+    /* place-items: center; */
+    /* margin-left: 37px; */
+}
+
+.numbers .result .inputWrite{
+    padding-left: 200px;
+    /* text-align: center; */
+}
